@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#36648B">
+    
+   <LinearLayout android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_alignParentTop="true">
+       <ImageView android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:gravity="center"
+           android:layout_margin="15dp"
+           android:src="@drawable/icon"/>
+       
+       <TextView android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:id="@+id/teamname"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="15dp"
+           android:gravity="center"
+           android:textColor="#FFFFFF"
+           android:text="Flashing Math Team"/>
+       
+        
+        <LinearLayout android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       		android:gravity="center"
+       		android:orientation="vertical">
+         
+           <LinearLayout android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:gravity="center"
+       		android:layout_marginTop="10dp"
+       		android:orientation="horizontal">
+         		<TextView android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:textSize="20dp"
+           			android:textColor="#FFFFFF"
+           			 android:id="@+id/emailtext"
+           			android:text="Email:"/>
+         		<TextView android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:textSize="20dp"
+           			android:textColor="#FFFFFF"
+           			android:autoLink="email" 
+           			 android:id="@+id/emailnum"
+           			android:text="1146939206@qq.com"/>
+         	</LinearLayout>
+         	
+            <LinearLayout android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:gravity="center"
+       		android:layout_marginTop="8dp"
+       		android:orientation="horizontal">
+         	</LinearLayout>
+        
+         </LinearLayout>
+   </LinearLayout> 
+  
+  <LinearLayout  android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_alignParentBottom="true">
+  <Button android:layout_width="fill_parent"
+      android:layout_height="40dp"
+      android:id="@+id/gradeButton"
+      android:text="Rate Us"
+      android:textSize="20dp"
+      android:layout_marginTop="5dp"
+      android:background="@drawable/btn_bg"
+      android:onClick="buttonClick"/>
+ 
+   <Button android:layout_width="fill_parent"
+     android:layout_height="40dp"
+      android:id="@+id/contactButton"
+      android:text="Feedback"
+      android:layout_marginTop="5dp"
+      android:textSize="20dp"
+     android:background="@drawable/btn_bg"
+      android:onClick="buttonClick"/>
+   
+    <Button android:layout_width="fill_parent"
+     android:layout_height="40dp"
+      android:id="@+id/goMarketButton"
+      android:text="More Apps"
+      android:layout_marginTop="5dp"
+      android:textSize="20dp"
+      android:background="@drawable/btn_bg"
+      android:onClick="buttonClick"/>
+ </LinearLayout>
+</RelativeLayout>

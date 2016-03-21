@@ -1,0 +1,29 @@
+# view AndroidManifest.xml #generated:37
+-keep class com.deng.flashingmath.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.deng.flashingmath.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.deng.flashingmath.Welcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.umeng.fb.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.umeng.fb.ConversationActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:169
+# onClick res/layout/activity_main.xml #generated:180
+# onClick res/layout/activity_main.xml #generated:191
+# onClick res/layout/activity_main.xml #generated:207
+# onClick res/layout/activity_main.xml #generated:218
+# onClick res/layout/activity_main.xml #generated:229
+# onClick res/layout/activity_main.xml #generated:245
+# onClick res/layout/activity_main.xml #generated:256
+# onClick res/layout/activity_main.xml #generated:267
+# onClick res/layout/setting_layout.xml #generated:71
+# onClick res/layout/setting_layout.xml #generated:80
+# onClick res/layout/setting_layout.xml #generated:89
+-keepclassmembers class * { *** buttonClick(...); }
+
