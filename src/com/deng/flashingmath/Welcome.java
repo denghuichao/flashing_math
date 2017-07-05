@@ -46,28 +46,7 @@ public class Welcome extends Activity{
 			public void onAnimationRepeat(Animation animation) {}
 			public void onAnimationStart(Animation animation) {}
 			
-	   });
-		
-//		RelativeLayout container=(RelativeLayout)findViewById(R.id.container);
-//		 new SplashAd(this, container, Constants.APPId, Constants.SplashPosId,
-//					new SplashAdListener() {
-//						@Override
-//						public void onAdPresent() {
-//
-//						}
-//
-//						@Override
-//						public void onAdFailed(int arg0) {
-//							 redirectTo();
-//						}
-//
-//						@Override
-//						public void onAdDismissed() {
-//							
-//							 redirectTo();
-//						}
-//				});
-		
+	   });	
 	}
 
 	public void onResume() {
